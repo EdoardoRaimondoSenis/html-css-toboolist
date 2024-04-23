@@ -1,8 +1,11 @@
 * {
-    
-    font-family: "Golos Text", sans-serif;
     margin: 0 auto;
+}
+
+body {
+    font-family: "Golos Text", sans-serif;
     background-color: rgba(128, 128, 128, 0.101);
+    margin-bottom: 5%;
 }
 
 header {
@@ -48,7 +51,7 @@ div nav {
 }
 
 #hor {
-    border-color: rgba(128, 128, 128, 0.101);
+    border-color: rgba(128, 128, 128, 0);
     text-align: left;
     padding-right: 0;
 }
@@ -57,8 +60,88 @@ div nav {
     padding-top: 30px;
     background-color: white;
     margin: 0 10%;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-bottom: 50px;
 }
 
-.titmain::before {
-    
+main div {
+    font-size: 20px;
+    padding-top: 15px;
+}
+
+.trid::before {
+    content: "\25BE";
+}
+
+.check::before {
+    content: "\2714";
+    color: rgb(2, 226, 25);
+    border-style: solid;
+    border-radius: 50%;
+    border-color: rgb(2, 226, 25);
+}
+
+.sfoblu {
+    color: white;
+    background-color: dodgerblue;
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 17px;
+}
+
+.sep {
+    padding-top: 30px;
+
+}
+
+.font {
+    font-size: 25px;
+}
+
+.sfoviola {
+    color: white;
+    background-color: rgb(144, 0, 122);
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 17px;
+}
+
+.sfoverde {
+    color: white;
+    background-color: rgb(0, 156, 0);
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 17px;
+}
+
+.cross::before {
+    content: "\2717";
+    color: rgb(239, 33, 1);
+    border-style: solid;
+    border-radius: 50%;
+    border-color: rgb(239, 33, 1);
+}
+
+.sfoaran {
+    color: white;
+    background-color: rgb(255, 128, 0);
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 17px;
+}
+.sfomage {
+    color: white;
+    background-color: rgb(255, 0, 230);
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 17px;
+}
+
+.sfolightgre {
+    color: white;
+    background-color: rgb(128, 255, 37);
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 17px;
 }
