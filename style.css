@@ -2,6 +2,7 @@
     margin: 0 auto;
 }
 
+/* Spazi e font */
 body {
     font-family: "Golos Text", sans-serif;
     background-color: rgba(128, 128, 128, 0.101);
@@ -13,6 +14,7 @@ header {
     background-color: white;
 }
 
+/* Centratura titolo "Toboolist" */
 header h1 {
     display: inline-block;
     position: absolute;
@@ -21,6 +23,7 @@ header h1 {
     background-color: white;
 }
 
+/* Centratura navigatore */
 body div nav {
     margin: 3% 10% 0 10%;
     background-color: white;
@@ -30,10 +33,7 @@ body div nav {
     padding-bottom: 30px;
 }
 
-div nav {
-    background-color: white;
-}
-
+/* Colori e spazi al pulsante "Add Task" */
 .cerblu {
     background-color: dodgerblue;
     color: white;
@@ -41,6 +41,7 @@ div nav {
     padding: 7px;
 }
 
+/* Colori sfondi e bordi al box "Add section" */
 #butbi {
     background-color: white;
     border-style: solid;
@@ -50,12 +51,14 @@ div nav {
     padding: 4px;
 }
 
+/* Impostazione dell'horizontal lane in modo da confondersi con lo sfondo */
 #hor {
     border-color: rgba(128, 128, 128, 0);
     text-align: left;
     padding-right: 0;
 }
 
+/* Spazi e centratura testo del main */
 #main {
     padding-top: 30px;
     background-color: white;
@@ -65,15 +68,18 @@ div nav {
     padding-bottom: 50px;
 }
 
+/* Sistemata la grandezza del font e spaziatura tra le righe */
 main div {
     font-size: 20px;
     padding-top: 15px;
 }
 
+/* Aggiunto triangolo verso il basso */
 .trid::before {
     content: "\25BE";
 }
 
+/* Aggiunto segno check con bordo e colori */
 .check::before {
     content: "\2714";
     color: rgb(2, 226, 25);
@@ -82,6 +88,7 @@ main div {
     border-color: rgb(2, 226, 25);
 }
 
+/* Impostazioni per colori dello sfondo di "Editorial" */
 .sfoblu {
     color: white;
     background-color: dodgerblue;
@@ -92,13 +99,14 @@ main div {
 
 .sep {
     padding-top: 30px;
-
 }
 
+/* Aggiustato grandezza font */
 .font {
     font-size: 25px;
 }
 
+/* Impostazioni per colori dello sfondo di "Q1 Goals" */
 .sfoviola {
     color: white;
     background-color: rgb(144, 0, 122);
@@ -107,6 +115,7 @@ main div {
     font-size: 17px;
 }
 
+/* Impostazioni per colori dello sfondo di "Recruiting" */
 .sfoverde {
     color: white;
     background-color: rgb(0, 156, 0);
@@ -115,6 +124,7 @@ main div {
     font-size: 17px;
 }
 
+/* Aggiunto segno cross (x) con bordo e colori */
 .cross::before {
     content: "\2717";
     color: rgb(239, 33, 1);
@@ -123,6 +133,7 @@ main div {
     border-color: rgb(239, 33, 1);
 }
 
+/* Impostazioni per colori dello sfondo di "Mobile" */
 .sfoaran {
     color: white;
     background-color: rgb(255, 128, 0);
@@ -130,6 +141,8 @@ main div {
     border-radius: 15px;
     font-size: 17px;
 }
+
+/* Impostazioni per colori dello sfondo di "Website" */
 .sfomage {
     color: white;
     background-color: rgb(255, 0, 230);
@@ -138,6 +151,7 @@ main div {
     font-size: 17px;
 }
 
+/* Impostazioni per colori dello sfondo di "Sales" */
 .sfolightgre {
     color: white;
     background-color: rgb(128, 255, 37);
