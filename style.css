@@ -1,5 +1,6 @@
 * {
-    font-family: Ubuntu;
+    
+    font-family: "Golos Text", sans-serif;
     margin: 0 auto;
     background-color: rgba(128, 128, 128, 0.101);
 }
@@ -15,4 +16,49 @@ header h1 {
     top: 10px;
     font-size: 44px;
     background-color: white;
+}
+
+body div nav {
+    margin: 3% 10% 0 10%;
+    background-color: white;
+    padding-top: 30px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 30px;
+}
+
+div nav {
+    background-color: white;
+}
+
+.cerblu {
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 5px;
+    padding: 7px;
+}
+
+#butbi {
+    background-color: white;
+    border-style: solid;
+    border-color: rgba(128, 128, 128, 0.453);
+    color: rgba(128, 128, 128, 0.453);
+    border-radius: 5px;
+    padding: 4px;
+}
+
+#hor {
+    border-color: rgba(128, 128, 128, 0.101);
+    text-align: left;
+    padding-right: 0;
+}
+
+#main {
+    padding-top: 30px;
+    background-color: white;
+    margin: 0 10%;
+}
+
+.titmain::before {
+    
 }
