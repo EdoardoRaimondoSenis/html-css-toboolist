@@ -1,0 +1,18 @@
+* {
+    font-family: Ubuntu;
+    margin: 0 auto;
+    background-color: rgba(128, 128, 128, 0.101);
+}
+
+header {
+    padding: 10px;
+    background-color: white;
+}
+
+header h1 {
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    font-size: 44px;
+    background-color: white;
+}
